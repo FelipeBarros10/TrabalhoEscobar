@@ -62,7 +62,7 @@ php artisan serve
 
 | Página inicial | Detalhes do veículo | Painel administrativo |
 | --- | --- | --- |
-| ![Home](public/assets/screenshots/home.svg) | ![Detalhes](public/assets/screenshots/vehicle-detail.svg) | ![Admin](public/assets/screenshots/admin-dashboard.svg) |
+| ![Home](public/assets/screenshots/home.png) | ![Detalhes](public/assets/screenshots/vehicle-detail.png) | ![Admin](public/assets/screenshots/admin-dashboard.png) |
 
 ## Próximos passos sugeridos
 
