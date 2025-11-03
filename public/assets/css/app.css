@@ -1,0 +1,65 @@
+:root {
+    --primary-start: #0d6efd;
+    --primary-end: #6610f2;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f5f7fb;
+}
+
+.bg-gradient-primary {
+    background: linear-gradient(120deg, var(--primary-start), var(--primary-end));
+}
+
+.text-gradient {
+    background: linear-gradient(120deg, var(--primary-start), var(--primary-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.hero-image {
+    border: 6px solid rgba(255, 255, 255, 0.65);
+}
+
+.vehicle-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.vehicle-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 1.5rem 3rem rgba(13, 110, 253, 0.15);
+}
+
+.vehicle-card .card-img-top {
+    object-fit: cover;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.table > :not(caption) > * > * {
+    vertical-align: middle;
+}
+
+.color-swatch {
+    width: 18px;
+    height: 18px;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.alert ul {
+    margin-bottom: 0;
+}
+
+.pagination {
+    justify-content: center;
+}
