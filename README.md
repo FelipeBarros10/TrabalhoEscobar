@@ -24,7 +24,6 @@ Aplicação completa desenvolvida em Laravel para exibição e gerenciamento de 
 
 ## Modelagem do banco
 
-As tabelas e relacionamentos estão detalhados em `docs/database_plan.md`. Destaque para as seguintes entidades:
 - `brands` → marcas de veículos (relacionamento 1:N com modelos).
 - `vehicle_models` → modelos pertencentes a uma marca.
 - `colors` → catálogo de cores disponíveis.
@@ -63,13 +62,3 @@ php artisan serve
 | Página inicial | Detalhes do veículo | Painel administrativo |
 | --- | --- | --- |
 | ![Home](public/assets/screenshots/home.png) | ![Detalhes](public/assets/screenshots/vehicle-detail.png) | ![Admin](public/assets/screenshots/admin-dashboard.png) |
-
-## Próximos passos sugeridos
-
-1. Configurar envio de propostas e contato direto com a equipe comercial.
-2. Adicionar filtros avançados (marca, faixa de preço, quilometragem) na vitrine pública.
-3. Implementar upload local de imagens com armazenamento em serviços como S3.
-
----
-
-Se precisar de suporte adicional ou novas funcionalidades, fique à vontade para abrir uma issue ou entrar em contato.
