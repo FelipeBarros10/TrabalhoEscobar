@@ -39,6 +39,7 @@ php artisan key:generate
 # ajuste as credenciais de conexão ao MySQL no arquivo .env
 php artisan migrate --seed
 php artisan serve
+npm install
 ```
 
 > As seeds criam os dados iniciais de catálogo e o usuário administrador padrão.
