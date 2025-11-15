@@ -38,10 +38,11 @@ cp .env.example .env
 php artisan key:generate
 # ajuste as credenciais de conexão ao MySQL no arquivo .env
 php artisan migrate --seed
+php artisan db:seed --class=DatabaseSeeder
 php artisan serve
 npm install
 ```
-
+- Precisa rodar o seeder para criar um admin
 > As seeds criam os dados iniciais de catálogo e o usuário administrador padrão.
 
 ## Credenciais padrão

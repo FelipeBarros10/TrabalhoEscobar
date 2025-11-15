@@ -23,7 +23,7 @@
             </div>
             <div class="relative">
                 <div class="absolute -top-12 -right-12 w-48 h-48 bg-primary-100 rounded-full blur-3xl opacity-60 pointer-events-none"></div>
-                <img src="https://images.pexels.com/photos/97079/pexels-photo-97079.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640" class="relative rounded-3xl shadow-2xl ring-4 ring-white/50 object-cover w-full h-full" alt="Carro esportivo vermelho">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5e0HgcRBeQk_4xdyJ1kvuI35DprMZGfKtnw&s" class="relative rounded-3xl shadow-2xl ring-4 ring-white/50 object-cover w-full h-full" alt="Carro esportivo vermelho">
             </div>
         </div>
     </section>

@@ -41,7 +41,7 @@
         <div class="grid gap-6 sm:grid-cols-2">
             <div>
                 <label for="year" class="block text-sm font-semibold text-slate-600">Ano</label>
-                <input type="number" id="year" name="year" min="1980" max="{{ now()->addYear()->year }}" value="{{ old('year', isset($vehicle) ? $vehicle->year : '') }}" required class="mt-2 w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-700 shadow-sm focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-100">
+                <input type="number" id="year" name="year" min="" value="{{ old('year', isset($vehicle) ? $vehicle->year : '') }}" required class="mt-2 w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-700 shadow-sm focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-100">
             </div>
             <div>
                 <label for="mileage" class="block text-sm font-semibold text-slate-600">Quilometragem (km)</label>
